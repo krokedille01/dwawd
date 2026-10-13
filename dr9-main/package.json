@@ -1,0 +1,16 @@
+{
+  "name": "walletconnect-dapp",
+  "version": "1.0.0",
+  "description": "DApp with WalletConnect relay backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@walletconnect/core": "^2.15.10",
+    "@walletconnect/sign-client": "^2.15.10",
+    "@walletconnect/utils": "^2.15.10"
+  }
+}
